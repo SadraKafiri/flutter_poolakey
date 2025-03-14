@@ -65,7 +65,7 @@ android {
         versionName "2.3.0"
     }
 
-    buildTypes {
+
     buildTypes {
         debug {
             buildConfigField "String", "POOLAKEY_VERSION", "\"$poolakey_version\""
@@ -73,8 +73,6 @@ android {
         release {
             buildConfigField "String", "POOLAKEY_VERSION", "\"$poolakey_version\""
         }
-}
-
     }
 
     dependencies {
